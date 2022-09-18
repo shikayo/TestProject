@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avtobus", "Avtobus\Avtobus.csproj", "{5AF68159-6CA4-4CB2-8CF3-8B78FB204848}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{D2E1BBE9-865C-4A59-B486-6CCEDCED90A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{1638E062-A692-474B-813A-D5C05855F066}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AF68159-6CA4-4CB2-8CF3-8B78FB204848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF68159-6CA4-4CB2-8CF3-8B78FB204848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF68159-6CA4-4CB2-8CF3-8B78FB204848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF68159-6CA4-4CB2-8CF3-8B78FB204848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2E1BBE9-865C-4A59-B486-6CCEDCED90A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2E1BBE9-865C-4A59-B486-6CCEDCED90A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2E1BBE9-865C-4A59-B486-6CCEDCED90A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2E1BBE9-865C-4A59-B486-6CCEDCED90A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1638E062-A692-474B-813A-D5C05855F066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1638E062-A692-474B-813A-D5C05855F066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1638E062-A692-474B-813A-D5C05855F066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1638E062-A692-474B-813A-D5C05855F066}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

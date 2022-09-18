@@ -1,0 +1,12 @@
+D:\Rider proj\Avtobus\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\Rider proj\Avtobus\Domain\bin\Debug\net6.0\Domain.dll
+D:\Rider proj\Avtobus\Domain\bin\Debug\net6.0\ref\Domain.dll
+D:\Rider proj\Avtobus\Domain\bin\Debug\net6.0\Domain.pdb
+D:\Rider proj\Avtobus\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\Rider proj\Avtobus\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rider proj\Avtobus\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\Rider proj\Avtobus\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\Rider proj\Avtobus\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\Rider proj\Avtobus\Domain\obj\Debug\net6.0\Domain.dll
+D:\Rider proj\Avtobus\Domain\obj\Debug\net6.0\ref\Domain.dll
+D:\Rider proj\Avtobus\Domain\obj\Debug\net6.0\Domain.pdb

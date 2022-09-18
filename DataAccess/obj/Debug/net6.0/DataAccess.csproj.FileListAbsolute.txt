@@ -1,0 +1,17 @@
+D:\Rider proj\Avtobus\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+D:\Rider proj\Avtobus\DataAccess\bin\Debug\net6.0\DataAccess.dll
+D:\Rider proj\Avtobus\DataAccess\bin\Debug\net6.0\ref\DataAccess.dll
+D:\Rider proj\Avtobus\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+D:\Rider proj\Avtobus\DataAccess\bin\Debug\net6.0\Domain.dll
+D:\Rider proj\Avtobus\DataAccess\bin\Debug\net6.0\Domain.pdb
+D:\Rider proj\Avtobus\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+D:\Rider proj\Avtobus\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rider proj\Avtobus\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+D:\Rider proj\Avtobus\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+D:\Rider proj\Avtobus\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Rider proj\Avtobus\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+D:\Rider proj\Avtobus\DataAccess\obj\Debug\net6.0\DataAccess.dll
+D:\Rider proj\Avtobus\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+D:\Rider proj\Avtobus\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+D:\Rider proj\Avtobus\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+D:\Rider proj\Avtobus\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
