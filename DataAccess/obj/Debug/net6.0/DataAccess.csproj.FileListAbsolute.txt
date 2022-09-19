@@ -15,3 +15,20 @@ D:\Rider proj\Avtobus\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
 D:\Rider proj\Avtobus\DataAccess\obj\Debug\net6.0\DataAccess.pdb
 D:\Rider proj\Avtobus\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
 D:\Rider proj\Avtobus\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache
+D:\git\TestProject\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+D:\git\TestProject\DataAccess\bin\Debug\net6.0\DataAccess.runtimeconfig.json
+D:\git\TestProject\DataAccess\bin\Debug\net6.0\DataAccess.dll
+D:\git\TestProject\DataAccess\bin\Debug\net6.0\ref\DataAccess.dll
+D:\git\TestProject\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+D:\git\TestProject\DataAccess\bin\Debug\net6.0\Domain.dll
+D:\git\TestProject\DataAccess\bin\Debug\net6.0\Domain.pdb
+D:\git\TestProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+D:\git\TestProject\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\TestProject\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+D:\git\TestProject\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+D:\git\TestProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\git\TestProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+D:\git\TestProject\DataAccess\obj\Debug\net6.0\DataAccess.dll
+D:\git\TestProject\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+D:\git\TestProject\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+D:\git\TestProject\DataAccess\obj\Debug\net6.0\DataAccess.genruntimeconfig.cache

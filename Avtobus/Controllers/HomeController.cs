@@ -1,15 +1,19 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Avtobus.Models;
+using DataAccess;
+using Domain;
 
 namespace Avtobus.Controllers;
 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private IRepository<Url> _repository;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger,IRepository<Url> repository)
     {
+        _repository = repository;
         _logger = logger;
     }
 

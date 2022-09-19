@@ -10,3 +10,15 @@ D:\Rider proj\Avtobus\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.ca
 D:\Rider proj\Avtobus\Domain\obj\Debug\net6.0\Domain.dll
 D:\Rider proj\Avtobus\Domain\obj\Debug\net6.0\ref\Domain.dll
 D:\Rider proj\Avtobus\Domain\obj\Debug\net6.0\Domain.pdb
+D:\git\TestProject\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\git\TestProject\Domain\bin\Debug\net6.0\Domain.dll
+D:\git\TestProject\Domain\bin\Debug\net6.0\ref\Domain.dll
+D:\git\TestProject\Domain\bin\Debug\net6.0\Domain.pdb
+D:\git\TestProject\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\git\TestProject\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\TestProject\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\git\TestProject\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\git\TestProject\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\git\TestProject\Domain\obj\Debug\net6.0\Domain.dll
+D:\git\TestProject\Domain\obj\Debug\net6.0\ref\Domain.dll
+D:\git\TestProject\Domain\obj\Debug\net6.0\Domain.pdb

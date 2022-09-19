@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bf7g+OtAiCtulFTPZyVSIkK+Wx3XXYZNMedhi2QoUjUGJt4mzmrt3X7B8+7sU8N5IMhoYxdupJCkx1fGCRBduA==",
+  "dgSpecHash": "AG3vrfgceYI4PbbK8RWISQT17T/cJ0R+GQEX6A5DVx0imFE2A8qqTqV0k6vlU3k8t+iRiQ34VfPbyhcf7kfqIA==",
   "success": true,
-  "projectFilePath": "D:\\Rider proj\\Avtobus\\Avtobus\\Avtobus.csproj",
+  "projectFilePath": "D:\\git\\TestProject\\Avtobus\\Avtobus.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\japan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\japan\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",

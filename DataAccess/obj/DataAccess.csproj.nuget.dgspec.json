@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Rider proj\\Avtobus\\DataAccess\\DataAccess.csproj": {}
+    "D:\\git\\TestProject\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\Rider proj\\Avtobus\\DataAccess\\DataAccess.csproj": {
+    "D:\\git\\TestProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Rider proj\\Avtobus\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\git\\TestProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\Rider proj\\Avtobus\\DataAccess\\DataAccess.csproj",
+        "projectPath": "D:\\git\\TestProject\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\japan\\.nuget\\packages\\",
-        "outputPath": "D:\\Rider proj\\Avtobus\\DataAccess\\obj\\",
+        "outputPath": "D:\\git\\TestProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Rider proj\\Avtobus\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Rider proj\\Avtobus\\Domain\\Domain.csproj"
+              "D:\\git\\TestProject\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\git\\TestProject\\Domain\\Domain.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "D:\\Rider proj\\Avtobus\\Domain\\Domain.csproj": {
+    "D:\\git\\TestProject\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Rider proj\\Avtobus\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\git\\TestProject\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Rider proj\\Avtobus\\Domain\\Domain.csproj",
+        "projectPath": "D:\\git\\TestProject\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\japan\\.nuget\\packages\\",
-        "outputPath": "D:\\Rider proj\\Avtobus\\Domain\\obj\\",
+        "outputPath": "D:\\git\\TestProject\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"

@@ -6,6 +6,11 @@ namespace DataAccess.Reposiotory;
 public class UrlRepository : IRepository<Url>
 {
     private AppDbContext _context;
+
+    public UrlRepository(AppDbContext context)
+    {
+        _context = context;
+    }
     
     public IEnumerable<Url> GetAll()
     {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LUShGhwVysNoeLo6829j8mxC4AMrL547XwG4Muwejkzj3mJEi62gSs5wn/5nFzP8GkWAwtPYmgQQpW4S80yaGw==",
+  "dgSpecHash": "Pe0RxckZJCO79n/hcRyw9qeTxrVPn3RJYAiPhBcVUCqZM2dbMfB2gyCuTA/0IV50Fw8oq8SxfPbVj9/POCNFKA==",
   "success": true,
-  "projectFilePath": "D:\\Rider proj\\Avtobus\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\git\\TestProject\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

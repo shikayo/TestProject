@@ -5259,11 +5259,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Rider proj\\Avtobus\\Avtobus\\Avtobus.csproj",
+      "projectUniqueName": "D:\\git\\TestProject\\Avtobus\\Avtobus.csproj",
       "projectName": "Avtobus",
-      "projectPath": "D:\\Rider proj\\Avtobus\\Avtobus\\Avtobus.csproj",
+      "projectPath": "D:\\git\\TestProject\\Avtobus\\Avtobus.csproj",
       "packagesPath": "C:\\Users\\japan\\.nuget\\packages\\",
-      "outputPath": "D:\\Rider proj\\Avtobus\\Avtobus\\obj\\",
+      "outputPath": "D:\\git\\TestProject\\Avtobus\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
@@ -5284,8 +5284,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Rider proj\\Avtobus\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\Rider proj\\Avtobus\\DataAccess\\DataAccess.csproj"
+            "D:\\git\\TestProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "D:\\git\\TestProject\\DataAccess\\DataAccess.csproj"
             }
           }
         }

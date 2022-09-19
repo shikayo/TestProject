@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6w2B7EAoabkvRBXXOWMO0a8CkJKniLdOvZCdkgnv2WGgVAzKvmN7SAJbAfjrJsVZGhEuagZEcVB19pqzHFsvww==",
+  "dgSpecHash": "VO92Fg98k7c1uZtIFzv2PA6HwoBS22EkQ17DcBd0P4aI1ObVJ2sWzuxQ7lyN91WmqAyz6DaeujlWr9musM1BQg==",
   "success": true,
-  "projectFilePath": "D:\\Rider proj\\Avtobus\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "D:\\git\\TestProject\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\japan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\japan\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",

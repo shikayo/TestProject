@@ -1,4 +1,6 @@
 using DataAccess;
+using DataAccess.Reposiotory;
+using Domain;
 using Microsoft.EntityFrameworkCore;
 using Pomelo.EntityFrameworkCore.MySql.Internal;
 
@@ -12,6 +14,8 @@ builder.Services.AddDbContext<AppDbContext>(option =>
         builder.Configuration.GetConnectionString("MariaDBConnection"),
         MySqlServerVersion.LatestSupportedServerVersion
     ));
+
+builder.Services.AddScoped<IRepository<Url>, UrlRepository>();
 
 
 var app = builder.Build();
