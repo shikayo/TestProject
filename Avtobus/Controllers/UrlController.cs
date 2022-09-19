@@ -1,27 +1,43 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Avtobus.Models;
+using DataAccess;
+using Domain;
+using Microsoft.AspNetCore.Mvc;
+using Services.UrlShorter;
 
 namespace Avtobus.Controllers;
 
 public class UrlController : Controller
 {
-    public UrlController()
+    private IRepository<Url> _repository;
+    private IShortLink _shortLink;
+    public UrlController(IRepository<Url> repository,IShortLink shortLink)
     {
-        
+        _repository = repository;
+        _shortLink = shortLink;
     }
 
     public IActionResult Home()
     {
-        return null;
+        return View();
     }
 
-    public IActionResult Create()
+    [HttpPost]
+    public IActionResult Create(UrlViewModel model)
     {
-        return null;
-    }
+        var url = new Url();
+        
+        url.FullUrl = model.FullUrl;
+        url.ShortUrl=_shortLink.GetShortUrl(model.FullUrl);
+        url.DateOfCreate=DateTime.Now;
+        url.Count = 0;
+        
+        _repository.Create(url);
+        _repository.Save();
 
-    public IActionResult Edit()
-    {
-        return null;
+
+        return RedirectToAction("Home");
     }
+    
+    
     
 }

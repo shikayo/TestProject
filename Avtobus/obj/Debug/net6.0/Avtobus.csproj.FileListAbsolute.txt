@@ -80,3 +80,6 @@ D:\git\TestProject\Avtobus\obj\Debug\net6.0\Avtobus.dll
 D:\git\TestProject\Avtobus\obj\Debug\net6.0\ref\Avtobus.dll
 D:\git\TestProject\Avtobus\obj\Debug\net6.0\Avtobus.pdb
 D:\git\TestProject\Avtobus\obj\Debug\net6.0\Avtobus.genruntimeconfig.cache
+D:\git\TestProject\Avtobus\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\git\TestProject\Avtobus\bin\Debug\net6.0\Services.dll
+D:\git\TestProject\Avtobus\bin\Debug\net6.0\Services.pdb

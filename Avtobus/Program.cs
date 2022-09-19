@@ -3,6 +3,7 @@ using DataAccess.Reposiotory;
 using Domain;
 using Microsoft.EntityFrameworkCore;
 using Pomelo.EntityFrameworkCore.MySql.Internal;
+using Services.UrlShorter;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,8 @@ builder.Services.AddDbContext<AppDbContext>(option =>
     ));
 
 builder.Services.AddScoped<IRepository<Url>, UrlRepository>();
+
+builder.Services.AddSingleton<IShortLink, ShortLink>();
 
 
 var app = builder.Build();
