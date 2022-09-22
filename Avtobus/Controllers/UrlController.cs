@@ -2,7 +2,7 @@
 using DataAccess;
 using Domain;
 using Microsoft.AspNetCore.Mvc;
-using Services.UrlShorter;
+using Services.LinkShorter;
 
 namespace Avtobus.Controllers;
 
@@ -24,17 +24,7 @@ public class UrlController : Controller
     [HttpPost]
     public IActionResult Create(UrlViewModel model)
     {
-        var url = new Url();
-        
-        url.FullUrl = model.FullUrl;
-        url.ShortUrl=_shortLink.GetShortUrl(model.FullUrl);
-        url.DateOfCreate=DateTime.Now;
-        url.Count = 0;
-        
-        _repository.Create(url);
-        _repository.Save();
-
-
+        _shortLink.GenerateShortUrl(model.FullUrl);
         return RedirectToAction("Home");
     }
     
