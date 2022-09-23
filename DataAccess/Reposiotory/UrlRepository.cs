@@ -39,6 +39,12 @@ public class UrlRepository : IRepository<Url>
             _context.Urls.Remove(url);
     }
 
+    public Url GetUrlByShortUrl(string shortUrl)
+    {
+        var url = _context.Urls.FirstOrDefault(x => x.Code == shortUrl);
+        return url;
+    }
+
     public void Save()
     {
         _context.SaveChanges();

@@ -9,4 +9,6 @@ public interface IRepository<T> : IDisposable
     void Edit(T item);
     void Delete(Guid id);
     void Save();
+
+    T GetUrlByShortUrl(string shortUrl);
 }

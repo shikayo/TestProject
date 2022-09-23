@@ -26,6 +26,17 @@ public class HomeController : Controller
     {
         return View();
     }
+    
+    public RedirectResult RedirectToOriginal(string shortUrl)
+    {
+        var url = _repository.GetUrlByShortUrl(shortUrl);
+        url.Count++;
+        _repository.Save();
+        var fullUrl = url.FullUrl;
+        if (!string.IsNullOrEmpty(fullUrl))
+           return Redirect(fullUrl);
+        return Redirect("/Home/Error");
+    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

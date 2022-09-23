@@ -1,7 +1,9 @@
+using Avtobus.Controllers;
 using DataAccess;
 using DataAccess.Reposiotory;
 using Domain;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileSystemGlobbing.Internal.Patterns;
 using Pomelo.EntityFrameworkCore.MySql.Internal;
 using Services.LinkShorter;
 
@@ -31,6 +33,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -38,8 +41,16 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "shortUrl",
+        pattern: "{shortUrl}",
+        defaults:new {controller="Home",action="RedirectToOriginal"}
+    );
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+});
 
 app.Run();

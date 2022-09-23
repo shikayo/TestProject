@@ -1,6 +1,8 @@
-﻿using Avtobus.Models;
+﻿using System.Diagnostics;
+using Avtobus.Models;
 using DataAccess;
 using Domain;
+using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using Services.LinkShorter;
 
@@ -27,7 +29,5 @@ public class UrlController : Controller
         _shortLink.GenerateShortUrl(model.FullUrl);
         return RedirectToAction("Home");
     }
-    
-    
     
 }

@@ -17,15 +17,16 @@ public class ShortLink : IShortLink
     public void GenerateShortUrl(string fullUrl)
     {
         var shortUrl = Generator(fullUrl);
-        while (_context.Urls.ToList().Where(x=>x.ShortUrl==shortUrl).Any())
+        while (_context.Urls.ToList().Where(x=>x.Code==shortUrl).Any())
         {
             shortUrl = Generator(fullUrl);
         }
-
+        
         var url = new Url()
         {
             FullUrl = fullUrl,
-            ShortUrl = shortUrl,
+            ShortUrl = "localhost:45367/"+shortUrl,
+            Code = shortUrl,
             DateOfCreate = DateTime.Now,
             Count = 0,
         };

@@ -21,6 +21,8 @@ namespace DataAccess.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     ShortUrl = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
+                    Code = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
                     DateOfCreate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     Count = table.Column<int>(type: "int", nullable: false)
                 },
