@@ -4,11 +4,17 @@
     ViewBag.Title = "title";
     Layout = "_Layout";
 }
+<div style="margin-bottom: 30px">
+    <h3>Создать короткую ссылку</h3>
+</div>
 
 <form asp-action="Create" method="post">
-    @Html.LabelFor(model => model.FullUrl)
-    <br/>
-    @Html.ValidationMessageFor(model => model.FullUrl)
-    <input required="required" asp-for="FullUrl"/>
-    <button type="submit">Создать Short Url</button>
+    <div class="labelColor">
+        @Html.ValidationMessageFor(model => model.FullUrl)
+    </div>
+    <div style="display: flex">
+        <input class="form-control" required="required" asp-for="FullUrl"/>
+        <button class="btn btn-primary" style="margin-left: 20px;" type="submit">Создать</button>
+    </div>
 </form>
+<img style="margin-top: 40px" src="https://c.tenor.com/8iMyvddJvmIAAAAd/gachimuchi-steve-rambo.gif"/>

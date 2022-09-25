@@ -39,6 +39,7 @@ public class HomeController : Controller
         var fullUrl = url.FullUrl;
         if (!string.IsNullOrEmpty(fullUrl))
            return Redirect(fullUrl);
+        
         return Redirect("/Home/Error");
     }
 
