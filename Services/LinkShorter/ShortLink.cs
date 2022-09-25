@@ -21,6 +21,11 @@ public class ShortLink : IShortLink
         {
             shortUrl = Generator(fullUrl);
         }
+
+        if (!fullUrl.Contains("https://") || !fullUrl.Contains("https://"))
+        {
+            fullUrl = "https://" + fullUrl;
+        }
         
         var url = new Url()
         {
