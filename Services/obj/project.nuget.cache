@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xaRA/ROIQrHC74oYeiKt+ADSIesVyKEsZA7Cc73oXy9N7c3a3OB+6LoWIg6V5QMECMIIHH4sg4Hkso6wRcXqAQ==",
+  "dgSpecHash": "niCTGKC8OYZ3H38gfWS8BNRwzUDhV6orlGVNYtCxgNUWkFE48aiSsjhSuhX5lCFwj0KgnuGBE3xgDFjtSQr9OA==",
   "success": true,
   "projectFilePath": "D:\\git\\TestProject\\Services\\Services.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,9 @@
     "C:\\Users\\japan\\.nuget\\packages\\microsoft.entityframeworkcore.relational.design\\1.1.1\\microsoft.entityframeworkcore.relational.design.1.1.1.nupkg.sha512",
     "C:\\Users\\japan\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\japan\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
+    "C:\\Users\\japan\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\japan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\japan\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
     "C:\\Users\\japan\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\japan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\japan\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",

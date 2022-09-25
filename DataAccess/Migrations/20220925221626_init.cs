@@ -31,6 +31,16 @@ namespace DataAccess.Migrations
                     table.PrimaryKey("PK_Urls", x => x.Id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.InsertData(
+                table: "Urls",
+                columns: new[] { "Id", "Code", "Count", "DateOfCreate", "FullUrl", "ShortUrl" },
+                values: new object[] { new Guid("0d2d5454-c5d5-4ebe-8c35-e620df7cbb88"), "cautct", 1, new DateTime(2022, 9, 26, 1, 16, 25, 933, DateTimeKind.Local).AddTicks(5951), "https://github.com/shikayo", "localhost:45367/cautct" });
+
+            migrationBuilder.InsertData(
+                table: "Urls",
+                columns: new[] { "Id", "Code", "Count", "DateOfCreate", "FullUrl", "ShortUrl" },
+                values: new object[] { new Guid("c1d3d8b4-e24c-4310-ba6f-e4d9054db15b"), "8mbCpl", 0, new DateTime(2022, 9, 26, 1, 16, 25, 933, DateTimeKind.Local).AddTicks(5961), "https://www.google.ru", "localhost:45367/8mbCpl" });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccess.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220924180502_init")]
+    [Migration("20220925221626_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -48,6 +48,26 @@ namespace DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Urls");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("0d2d5454-c5d5-4ebe-8c35-e620df7cbb88"),
+                            Code = "cautct",
+                            Count = 1,
+                            DateOfCreate = new DateTime(2022, 9, 26, 1, 16, 25, 933, DateTimeKind.Local).AddTicks(5951),
+                            FullUrl = "https://github.com/shikayo",
+                            ShortUrl = "localhost:45367/cautct"
+                        },
+                        new
+                        {
+                            Id = new Guid("c1d3d8b4-e24c-4310-ba6f-e4d9054db15b"),
+                            Code = "8mbCpl",
+                            Count = 0,
+                            DateOfCreate = new DateTime(2022, 9, 26, 1, 16, 25, 933, DateTimeKind.Local).AddTicks(5961),
+                            FullUrl = "https://www.google.ru",
+                            ShortUrl = "localhost:45367/8mbCpl"
+                        });
                 });
 #pragma warning restore 612, 618
         }
