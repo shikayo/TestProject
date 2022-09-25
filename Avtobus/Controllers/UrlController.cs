@@ -26,8 +26,20 @@ public class UrlController : Controller
     [HttpPost]
     public IActionResult Create(UrlViewModel model)
     {
-        _shortLink.GenerateShortUrl(model.FullUrl);
-        return RedirectToAction("Home");
+        if (ModelState.IsValid)
+        {
+            var domen = HttpContext.Request.Host.ToString();
+            _shortLink.GenerateShortUrl(domen, model.FullUrl);
+            return RedirectToAction("Index","Home");
+        }
+        return View("Home",model);
     }
-    
+
+    [HttpPost]
+    public IActionResult Delete(Guid id)
+    {
+        _repository.Delete(id);
+        _repository.Save();
+        return RedirectToAction("Index", "Home");
+    }
 }

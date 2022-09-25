@@ -14,7 +14,7 @@ public class ShortLink : IShortLink
         _context = context;
     }
     
-    public void GenerateShortUrl(string fullUrl)
+    public void GenerateShortUrl(string domen,string fullUrl)
     {
         var shortUrl = Generator(fullUrl);
         while (_context.Urls.ToList().Where(x=>x.Code==shortUrl).Any())
@@ -25,7 +25,7 @@ public class ShortLink : IShortLink
         var url = new Url()
         {
             FullUrl = fullUrl,
-            ShortUrl = "localhost:45367/"+shortUrl,
+            ShortUrl = domen+"/"+shortUrl,
             Code = shortUrl,
             DateOfCreate = DateTime.Now,
             Count = 0,

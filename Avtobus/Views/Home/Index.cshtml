@@ -1,4 +1,7 @@
-﻿@{
+﻿@using Domain
+@model AllUrlsViewModel
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -8,12 +11,25 @@
         <th>Полная ссылка</th>
         <th>Короткая ссылка</th>
         <th>Дата сооздания</th>
-        <th>Количество переходов</th>
+        <th>Количество переходов по short URL</th>
+        <th></th>
         </thead>
         <tbody>
-        <tr>
-            
-        </tr>
+        @foreach (var item in Model.Urls)
+        {
+            <tr>
+                <td><a target="_blank" href="@item.FullUrl">@item.FullUrl</a></td>
+                <td><a target="_blank" href="http://@item.ShortUrl">@item.ShortUrl</a></td>
+                <td>@item.DateOfCreate</td>
+                <td>@item.Count</td>
+                
+                <td>
+                    <form asp-controller="Url" asp-action="Delete" asp-route-id="@item.Id">
+                        <button class="btn btn-danger" type="submit">Удалить</button>
+                    </form>
+                </td>
+            </tr>
+        }
         </tbody>
     </table>
 </div>

@@ -19,7 +19,11 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        var model = new AllUrlsViewModel
+        {
+            Urls = _repository.GetAll()
+        };
+        return View(model);
     }
 
     public IActionResult Privacy()

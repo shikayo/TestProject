@@ -6,6 +6,9 @@
 }
 
 <form asp-action="Create" method="post">
-    <input asp-for="FullUrl"/>
+    @Html.LabelFor(model => model.FullUrl)
+    <br/>
+    @Html.ValidationMessageFor(model => model.FullUrl)
+    <input required="required" asp-for="FullUrl"/>
     <button type="submit">Создать Short Url</button>
 </form>
