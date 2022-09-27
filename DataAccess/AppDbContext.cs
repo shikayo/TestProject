@@ -14,6 +14,7 @@ public sealed class AppDbContext : DbContext
         var autoMigrate = configuration.GetValue<bool>("AutoMigrate");
         if(autoMigrate)
             Database.Migrate();
+        
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -22,6 +23,6 @@ public sealed class AppDbContext : DbContext
 
         modelBuilder.ApplyConfiguration(new UrlSeed());
     }
-    
     public DbSet<Url> Urls { get; set; }
 }
+

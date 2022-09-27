@@ -15,3 +15,5 @@ D:\git\TestProject\Services\bin\Debug\net6.0\Domain.dll
 D:\git\TestProject\Services\bin\Debug\net6.0\DataAccess.pdb
 D:\git\TestProject\Services\bin\Debug\net6.0\Domain.pdb
 D:\git\TestProject\Services\obj\Debug\net6.0\Services.csproj.CopyComplete
+D:\git\TestProject\Services\bin\Debug\net6.0\Services.runtimeconfig.json
+D:\git\TestProject\Services\obj\Debug\net6.0\Services.genruntimeconfig.cache
